@@ -19,6 +19,10 @@ public class Game {
 		System.out.println("Welcome to Master Mind!");
 		System.out.println("In this game, you will try to guess the color of four balls that the computer has.");
 		System.out.println("The colors can be Red, Green, Blue or Yellow.");
+		System.out.println("The order of the balls matters!");
+		System.out.println("A hit corresponds to the correct color in the correct slot.");
+		System.out.println("A Pseudo-Hit corresponds to the correct color in the wrong slot.");
+		System.out.println("A miss is when a color is not present at all.");
 		System.out.println("Let the game begin!");
 		
 		Scanner scanner = new Scanner(System.in);
